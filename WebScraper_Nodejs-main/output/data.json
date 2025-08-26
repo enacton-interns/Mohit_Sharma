@@ -1,0 +1,302 @@
+[
+  {
+    "title": "A Light in the ...",
+    "price": "£51.77",
+    "link": "https://books.toscrape.com/a-light-in-the-attic_1000/index.html"
+  },
+  {
+    "title": "Tipping the Velvet",
+    "price": "£53.74",
+    "link": "https://books.toscrape.com/tipping-the-velvet_999/index.html"
+  },
+  {
+    "title": "Soumission",
+    "price": "£50.10",
+    "link": "https://books.toscrape.com/soumission_998/index.html"
+  },
+  {
+    "title": "Sharp Objects",
+    "price": "£47.82",
+    "link": "https://books.toscrape.com/sharp-objects_997/index.html"
+  },
+  {
+    "title": "Sapiens: A Brief History ...",
+    "price": "£54.23",
+    "link": "https://books.toscrape.com/sapiens-a-brief-history-of-humankind_996/index.html"
+  },
+  {
+    "title": "The Requiem Red",
+    "price": "£22.65",
+    "link": "https://books.toscrape.com/the-requiem-red_995/index.html"
+  },
+  {
+    "title": "The Dirty Little Secrets ...",
+    "price": "£33.34",
+    "link": "https://books.toscrape.com/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html"
+  },
+  {
+    "title": "The Coming Woman: A ...",
+    "price": "£17.93",
+    "link": "https://books.toscrape.com/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html"
+  },
+  {
+    "title": "The Boys in the ...",
+    "price": "£22.60",
+    "link": "https://books.toscrape.com/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html"
+  },
+  {
+    "title": "The Black Maria",
+    "price": "£52.15",
+    "link": "https://books.toscrape.com/the-black-maria_991/index.html"
+  },
+  {
+    "title": "Starving Hearts (Triangular Trade ...",
+    "price": "£13.99",
+    "link": "https://books.toscrape.com/starving-hearts-triangular-trade-trilogy-1_990/index.html"
+  },
+  {
+    "title": "Shakespeare's Sonnets",
+    "price": "£20.66",
+    "link": "https://books.toscrape.com/shakespeares-sonnets_989/index.html"
+  },
+  {
+    "title": "Set Me Free",
+    "price": "£17.46",
+    "link": "https://books.toscrape.com/set-me-free_988/index.html"
+  },
+  {
+    "title": "Scott Pilgrim's Precious Little ...",
+    "price": "£52.29",
+    "link": "https://books.toscrape.com/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html"
+  },
+  {
+    "title": "Rip it Up and ...",
+    "price": "£35.02",
+    "link": "https://books.toscrape.com/rip-it-up-and-start-again_986/index.html"
+  },
+  {
+    "title": "Our Band Could Be ...",
+    "price": "£57.25",
+    "link": "https://books.toscrape.com/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html"
+  },
+  {
+    "title": "Olio",
+    "price": "£23.88",
+    "link": "https://books.toscrape.com/olio_984/index.html"
+  },
+  {
+    "title": "Mesaerion: The Best Science ...",
+    "price": "£37.59",
+    "link": "https://books.toscrape.com/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html"
+  },
+  {
+    "title": "Libertarianism for Beginners",
+    "price": "£51.33",
+    "link": "https://books.toscrape.com/libertarianism-for-beginners_982/index.html"
+  },
+  {
+    "title": "It's Only the Himalayas",
+    "price": "£45.17",
+    "link": "https://books.toscrape.com/its-only-the-himalayas_981/index.html"
+  },
+  {
+    "title": "In Her Wake",
+    "price": "£12.84",
+    "link": "https://books.toscrape.com/in-her-wake_980/index.html"
+  },
+  {
+    "title": "How Music Works",
+    "price": "£37.32",
+    "link": "https://books.toscrape.com/how-music-works_979/index.html"
+  },
+  {
+    "title": "Foolproof Preserving: A Guide ...",
+    "price": "£30.52",
+    "link": "https://books.toscrape.com/foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html"
+  },
+  {
+    "title": "Chase Me (Paris Nights ...",
+    "price": "£25.27",
+    "link": "https://books.toscrape.com/chase-me-paris-nights-2_977/index.html"
+  },
+  {
+    "title": "Black Dust",
+    "price": "£34.53",
+    "link": "https://books.toscrape.com/black-dust_976/index.html"
+  },
+  {
+    "title": "Birdsong: A Story in ...",
+    "price": "£54.64",
+    "link": "https://books.toscrape.com/birdsong-a-story-in-pictures_975/index.html"
+  },
+  {
+    "title": "America's Cradle of Quarterbacks: ...",
+    "price": "£22.50",
+    "link": "https://books.toscrape.com/americas-cradle-of-quarterbacks-western-pennsylvanias-football-factory-from-johnny-unitas-to-joe-montana_974/index.html"
+  },
+  {
+    "title": "Aladdin and His Wonderful ...",
+    "price": "£53.13",
+    "link": "https://books.toscrape.com/aladdin-and-his-wonderful-lamp_973/index.html"
+  },
+  {
+    "title": "Worlds Elsewhere: Journeys Around ...",
+    "price": "£40.30",
+    "link": "https://books.toscrape.com/worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html"
+  },
+  {
+    "title": "Wall and Piece",
+    "price": "£44.18",
+    "link": "https://books.toscrape.com/wall-and-piece_971/index.html"
+  },
+  {
+    "title": "The Four Agreements: A ...",
+    "price": "£17.66",
+    "link": "https://books.toscrape.com/the-four-agreements-a-practical-guide-to-personal-freedom_970/index.html"
+  },
+  {
+    "title": "The Five Love Languages: ...",
+    "price": "£31.05",
+    "link": "https://books.toscrape.com/the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969/index.html"
+  },
+  {
+    "title": "The Elephant Tree",
+    "price": "£23.82",
+    "link": "https://books.toscrape.com/the-elephant-tree_968/index.html"
+  },
+  {
+    "title": "The Bear and the ...",
+    "price": "£36.89",
+    "link": "https://books.toscrape.com/the-bear-and-the-piano_967/index.html"
+  },
+  {
+    "title": "Sophie's World",
+    "price": "£15.94",
+    "link": "https://books.toscrape.com/sophies-world_966/index.html"
+  },
+  {
+    "title": "Penny Maybe",
+    "price": "£33.29",
+    "link": "https://books.toscrape.com/penny-maybe_965/index.html"
+  },
+  {
+    "title": "Maude (1883-1993):She Grew Up ...",
+    "price": "£18.02",
+    "link": "https://books.toscrape.com/maude-1883-1993she-grew-up-with-the-country_964/index.html"
+  },
+  {
+    "title": "In a Dark, Dark ...",
+    "price": "£19.63",
+    "link": "https://books.toscrape.com/in-a-dark-dark-wood_963/index.html"
+  },
+  {
+    "title": "Behind Closed Doors",
+    "price": "£52.22",
+    "link": "https://books.toscrape.com/behind-closed-doors_962/index.html"
+  },
+  {
+    "title": "You can't bury them ...",
+    "price": "£33.63",
+    "link": "https://books.toscrape.com/you-cant-bury-them-all-poems_961/index.html"
+  },
+  {
+    "title": "Slow States of Collapse: ...",
+    "price": "£57.31",
+    "link": "https://books.toscrape.com/slow-states-of-collapse-poems_960/index.html"
+  },
+  {
+    "title": "Reasons to Stay Alive",
+    "price": "£26.41",
+    "link": "https://books.toscrape.com/reasons-to-stay-alive_959/index.html"
+  },
+  {
+    "title": "Private Paris (Private #10)",
+    "price": "£47.61",
+    "link": "https://books.toscrape.com/private-paris-private-10_958/index.html"
+  },
+  {
+    "title": "#HigherSelfie: Wake Up Your ...",
+    "price": "£23.11",
+    "link": "https://books.toscrape.com/higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html"
+  },
+  {
+    "title": "Without Borders (Wanderlove #1)",
+    "price": "£45.07",
+    "link": "https://books.toscrape.com/without-borders-wanderlove-1_956/index.html"
+  },
+  {
+    "title": "When We Collided",
+    "price": "£31.77",
+    "link": "https://books.toscrape.com/when-we-collided_955/index.html"
+  },
+  {
+    "title": "We Love You, Charlie ...",
+    "price": "£50.27",
+    "link": "https://books.toscrape.com/we-love-you-charlie-freeman_954/index.html"
+  },
+  {
+    "title": "Untitled Collection: Sabbath Poems ...",
+    "price": "£14.27",
+    "link": "https://books.toscrape.com/untitled-collection-sabbath-poems-2014_953/index.html"
+  },
+  {
+    "title": "Unseen City: The Majesty ...",
+    "price": "£44.18",
+    "link": "https://books.toscrape.com/unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952/index.html"
+  },
+  {
+    "title": "Unicorn Tracks",
+    "price": "£18.78",
+    "link": "https://books.toscrape.com/unicorn-tracks_951/index.html"
+  },
+  {
+    "title": "Unbound: How Eight Technologies ...",
+    "price": "£25.52",
+    "link": "https://books.toscrape.com/unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html"
+  },
+  {
+    "title": "Tsubasa: WoRLD CHRoNiCLE 2 ...",
+    "price": "£16.28",
+    "link": "https://books.toscrape.com/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html"
+  },
+  {
+    "title": "Throwing Rocks at the ...",
+    "price": "£31.12",
+    "link": "https://books.toscrape.com/throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html"
+  },
+  {
+    "title": "This One Summer",
+    "price": "£19.49",
+    "link": "https://books.toscrape.com/this-one-summer_947/index.html"
+  },
+  {
+    "title": "Thirst",
+    "price": "£17.27",
+    "link": "https://books.toscrape.com/thirst_946/index.html"
+  },
+  {
+    "title": "The Torch Is Passed: ...",
+    "price": "£19.09",
+    "link": "https://books.toscrape.com/the-torch-is-passed-a-harding-family-story_945/index.html"
+  },
+  {
+    "title": "The Secret of Dreadwillow ...",
+    "price": "£56.13",
+    "link": "https://books.toscrape.com/the-secret-of-dreadwillow-carse_944/index.html"
+  },
+  {
+    "title": "The Pioneer Woman Cooks: ...",
+    "price": "£56.41",
+    "link": "https://books.toscrape.com/the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943/index.html"
+  },
+  {
+    "title": "The Past Never Ends",
+    "price": "£56.50",
+    "link": "https://books.toscrape.com/the-past-never-ends_942/index.html"
+  },
+  {
+    "title": "The Natural History of ...",
+    "price": "£45.22",
+    "link": "https://books.toscrape.com/the-natural-history-of-us-the-fine-art-of-pretending-2_941/index.html"
+  }
+]
