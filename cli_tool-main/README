@@ -1,0 +1,176 @@
+# Tooler Utility CLI
+
+A Node.js command-line utility tool for file compression, string manipulation, and fetching weather data via API.
+
+## Features
+
+- **String Manipulation**
+
+  - Convert file content to uppercase or lowercase
+  - Count words in a file
+  - Count palindromes in a file
+
+- **File Compression**
+
+  - Compress files using gzip
+  - Decompress `.gz` files
+
+- **Weather Data**
+  - Fetch current weather information for any city using [WeatherAPI](https://www.weatherapi.com/)
+
+---
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone https://github.com/Mohit-2803/cli_tool.git
+   cd cli_tool
+   ```
+
+2. **Install dependencies:**
+
+   ```sh
+   npm install
+   ```
+
+3. **(Optional) Link the CLI globally:**
+   ```sh
+   npm link
+   ```
+   This allows you to use `cli-tool` from anywhere.
+
+---
+
+## Usage
+
+Run the CLI using:
+
+```sh
+node ./bin/index.js <command> [options]
+```
+
+Or, if linked globally:
+
+```sh
+cli-tool <command> [options]
+```
+
+### Available Commands
+
+#### String Manipulation
+
+- **Uppercase**
+
+  ```sh
+  cli-tool upper <filePath>
+  ```
+
+  Converts file content to uppercase.
+
+- **Lowercase**
+
+  ```sh
+  cli-tool lower <filePath>
+  ```
+
+  Converts file content to lowercase.
+
+- **Word Count**
+
+  ```sh
+  cli-tool count <filePath>
+  ```
+
+  Counts words in the file.
+
+- **Palindrome Count**
+  ```sh
+  cli-tool palindrome <filePath>
+  ```
+  Counts palindromes in the file.
+
+#### File Compression
+
+- **Compress**
+
+  ```sh
+  cli-tool compress <filePath>
+  ```
+
+  Compresses the file using gzip.
+
+- **Decompress**
+  ```sh
+  cli-tool decompress <filePath.gz>
+  ```
+  Decompresses a `.gz` file.
+
+#### Weather Data
+
+- **Get Weather**
+  ```sh
+  cli-tool weather <city>
+  ```
+  Fetches current weather for the specified city.
+
+---
+
+## Example Usage
+
+```sh
+cli-tool upper ./notes.txt
+cli-tool compress ./data.txt
+cli-tool weather London
+```
+
+---
+
+## Environment Variables
+
+For weather data, you need an API key from [WeatherAPI](https://www.weatherapi.com/).
+
+1. Create a `.env` file in the project root:
+   ```
+   WEATHER_API_KEY=your_api_key_here
+   ```
+
+---
+
+## Logging
+
+All errors and info messages are timestamped and printed to the console for easy debugging.
+
+---
+
+## Project Structure
+
+```
+bin/
+  index.js           # CLI entry point
+commands/
+  compress.js        # Compression commands
+  stringUtils.js     # String manipulation commands
+  weather.js         # Weather API command
+utils/
+  logger.js          # Logging utility
+```
+
+---
+
+## License
+
+ISC © Mohit Sharma
+
+---
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## Author
+
+Mohit Sharma

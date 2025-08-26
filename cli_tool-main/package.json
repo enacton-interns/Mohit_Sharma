@@ -1,0 +1,38 @@
+{
+  "name": "tooler-utility-cli",
+  "version": "1.0.3",
+  "description": "A Node.js CLI utility tool for file compression, string manipulation, and API fetching.",
+  "main": "index.js",
+  "bin": {
+    "cli-tool": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "dev": "nodemon ./bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "nodejs",
+    "command-line",
+    "utility",
+    "compression",
+    "string-manipulation",
+    "api"
+  ],
+  "author": "Mohit Sharma",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "commander": "^14.0.0",
+    "dotenv": "^17.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mohit-2803/cli_tool.git"
+  }
+}
