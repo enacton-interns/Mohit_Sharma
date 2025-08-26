@@ -1,0 +1,110 @@
+generator client {
+  provider = "prisma-client-js"
+   output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              Int               @id @default(autoincrement())
+  name            String
+  email           String            @unique
+  password        String            
+  contact         String?
+  address         String?
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+
+  serviceRequests ServiceRequest[]  // One user can create many requests
+  feedbacks       Feedback[]        // One user can give many feedbacks
+}
+
+model Skill {
+  id        Int               @id @default(autoincrement())
+  name      String            @unique
+  providers ServiceProvider[] // Many-to-many relation
+}
+
+model ServiceProvider {
+  id              Int       @id @default(autoincrement())
+  name            String
+  email           String    @unique
+  contact         String
+  available       Boolean   @default(true)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  skills          Skill[]   // Many-to-many relation
+  serviceRequests ServiceRequest[]
+  feedbacks       Feedback[]
+}
+
+
+model ServiceRequest {
+  id              Int               @id @default(autoincrement())
+  customerId      Int
+  providerId      Int?
+  serviceType     ServiceType
+  status          RequestStatus     @default(PENDING)
+  scheduledAt     DateTime?
+  completedAt     DateTime?
+  isRecurring     Boolean           @default(false)
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+
+  customer        User              @relation(fields: [customerId], references: [id])
+  provider        ServiceProvider?  @relation(fields: [providerId], references: [id])
+  feedback        Feedback?
+  recurringDetail RecurringSchedule?
+}
+
+model Feedback {
+  id              Int               @id @default(autoincrement())
+  rating          Int               // e.g., 1 to 5
+  comment         String?
+  customerId      Int
+  providerId      Int
+  requestId       Int               @unique
+  createdAt       DateTime          @default(now())
+
+  customer        User              @relation(fields: [customerId], references: [id])
+  provider        ServiceProvider   @relation(fields: [providerId], references: [id])
+  request         ServiceRequest    @relation(fields: [requestId], references: [id])
+}
+
+model RecurringSchedule {
+  id              Int               @id @default(autoincrement())
+  requestId       Int               @unique   // One recurring rule per request
+  frequency       RecurrenceType    // daily, weekly, monthly
+  intervalDays    Int               // for custom intervals
+  nextRun         DateTime
+
+  request         ServiceRequest    @relation(fields: [requestId], references: [id])
+}
+
+// ENUMS
+enum ServiceType {
+  CLEANING
+  PLUMBING
+  ELECTRICAL
+  LAUNDRY
+  COOKING
+  OTHER
+}
+
+enum RequestStatus {
+  PENDING
+  SCHEDULED
+  IN_PROGRESS
+  COMPLETED
+  CANCELLED
+}
+
+enum RecurrenceType {
+  DAILY
+  WEEKLY
+  MONTHLY
+  CUSTOM
+}
